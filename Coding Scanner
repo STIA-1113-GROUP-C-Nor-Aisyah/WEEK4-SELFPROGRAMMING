@@ -1,0 +1,35 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Scanner2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1;
+		double number2;
+		
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter an integer: ");
+		number1 = scanMe.nextInt();
+		
+		System.out.println("Enter Double value: ");
+		number2 = scanMe.nextDouble();
+		
+		double average = (number1 + number2)/2;
+		
+		System.out.println("Integer value is " + number1);
+		System.out.println("Double value is " + number2);
+		System.out.println("The average value is "+ average);
+		
+		System.out.println(average > number1);
+		System.out.println(average > number2);
+		
+		
+		
+
+	}
+
+}
