@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class DataConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int dollars = 20;
+		double money = dollars;
+		
+		System.out.println("The balance of money is " + money);
+
+	}
+
+}
