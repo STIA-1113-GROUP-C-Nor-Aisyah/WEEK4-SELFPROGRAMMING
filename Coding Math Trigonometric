@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class MathTrigonometric {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double x = 2.13;
+		double a = Math.sin(x);
+		double b = Math.cos(x);
+		double c = Math.tan(x);
+		
+		System.out.println("The sine of x is " + a);
+		System.out.println("The cose of x is " + b);
+		System.out.println("The tangent of x is " + c);
+		
+
+	}
+
+}
