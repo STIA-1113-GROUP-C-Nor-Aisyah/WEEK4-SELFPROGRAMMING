@@ -1,0 +1,19 @@
+package selfProgramming;
+
+public class MathematicalMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double x = 9;
+		double y = 15;
+		double min = Math.min(x, y);
+		double max = Math.max(x, y);
+		
+		System.out.println("The minimun point is " + min);
+		System.out.println("The maximum point is " + max);
+		
+
+	}
+
+}
