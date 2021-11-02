@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class TheMathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 1;
+		int b = -5;
+		int c = -6;
+		double total = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		System.out.println("The total is " + total);
+
+	}
+
+}
